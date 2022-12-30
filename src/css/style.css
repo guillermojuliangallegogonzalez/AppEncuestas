@@ -1,0 +1,51 @@
+
+
+BorderPane {-fx-background-color: #b2dafa; }
+
+Button { -fx-background-color: #5086c1;
+         -fx-border-color: #FFFFFF;
+         -fx-border-width: 2;
+         -fx-text-fill: #FFFFFF;
+         -fx-font-family: "Times New Roman";
+         -fx-font-style: italic;
+         -fx-font-size: 22px;
+         -fx-background-radius: 10 10 10 10;
+         -fx-border-radius: 10 10 10 10;
+}
+Button:hover { -fx-background-color: #333333;
+               -fx-font-size: 25px;
+}
+
+Button:pressed { -fx-background-color: #FFFFFF;
+	-fx-text-fill: #000000;
+	-fx-font-weight: bold;
+}
+
+Label{-fx-font-weight:bold;}
+
+CheckBox{-fx-font-weight:bold;}
+
+Text{-fx-font-weight:bold;}
+
+TextField{-fx-font-weight:bold;}
+
+ChoiceBox{-fx-font-weight:bold;}
+
+RadioButton{-fx-font-weight:bold;}
+
+GridPane{-fx-background-color: #b2dafa;}
+
+VBox{-fx-background-color: #b2dafa;}
+
+HBox{-fx-background-color: #b2dafa;}
+
+#titleHealth { -fx-font-family: "Times New Roman";
+         -fx-font-style: italic;
+         -fx-font-size: 50px;
+         -fx-text-fill: #5086c1;   
+}
+#title { -fx-font-family: "Times New Roman";
+         -fx-font-style: italic;
+         -fx-font-size: 100px;
+         -fx-text-fill: #5086c1;   
+}
